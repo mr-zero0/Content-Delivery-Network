@@ -1,0 +1,7 @@
+Future Enhancements
+1. Optimize CacheEvictor stale content logic by processing it in batches.
+2. Instead of storing all content metadata in in-memory map, store it in file system to support more no. of contents.
+3. Identify any simple embedded databases like BerkeleyDB, Sqlite3 and use it as underlying database to store content metadata.
+4. Identify more storage metrics and store it in Observability.
+    4.1. Disk I/O operations
+    4.2. Disk I/O Failures

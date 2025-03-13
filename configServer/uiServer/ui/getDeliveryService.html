@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Delivery Services</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Get Delivery Services</h1>
+        <button onclick="window.history.back()">Back</button>
+        <pre id="dsJsonOutput"></pre> <!-- JSON Data will be displayed here -->
+    </div>
+ 
+    <script>
+const API_BASE_URL = "..";  // Backend API URL
+ 
+        function getDeliveryServices() {
+            fetch(API_BASE_URL + "/ds")
+                .then(response => {
+                    if(!response.ok){
+                        throw new Error(`HTTP error! Status: ${response.status}`);
+
+                    }
+                    
+                     return response.json();
+                })
+                .then(data => {
+                    document.getElementById("dsJsonOutput").textContent = JSON.stringify(data, null, 4);
+                })
+                .catch(error => {
+                    console.error("Error fetching delivery services:", error);
+                    document.getElementById("dsJsonOutput").textContent = "Error loading Delivery Services.";
+                });
+        }
+ 
+        // Load data when the page opens
+        getDeliveryServices();
+    </script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Config Nodes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="fetchConfigNodes()">
+    <div class="container">
+        <h1>Config Nodes</h1>
+        <button onclick="window.history.back()">Back</button>
+        <pre id="configNodesOutput"></pre>
+    </div>
+ 
+    <script>
+const API_BASE_URL = "..";  // Update if needed
+ 
+        function fetchConfigNodes() {
+            fetch(API_BASE_URL + "/cn")
+                .then(response => response.json())
+                .then(data => {
+                    document.getElementById("configNodesOutput").textContent = JSON.stringify(data, null, 4);
+                })
+                .catch(error => {
+                    console.error("Error fetching Config Nodes:", error);
+                    document.getElementById("configNodesOutput").textContent = "Error loading Config Nodes.";
+                });
+        }
+    </script>
+</body>
+</html>

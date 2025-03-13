@@ -1,0 +1,25 @@
+{
+	"node": {
+		"ip": "127.0.0.1",
+		"port": 8080,
+		"type": "Edge",
+		"parentIP": "",
+		"parentPort": 0
+	},
+	"serviceList": {
+		"serviceList": [
+			{
+				"name": "ds1",
+				"clientURL": "http://google.com/",
+				"originURL": "http://localhost:32001/",
+				"rewriteRules": []
+			},
+			{
+				"name": "ds2",
+				"clientURL": "http://msn.com/",
+				"originURL": "http://localhost:32002/",
+				"rewriteRules": []
+			}
+		]
+	}
+}

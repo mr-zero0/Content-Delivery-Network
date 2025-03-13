@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Delivery Service</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+ 
+<body>
+    <div class="container">
+        <h1>Add Delivery Service</h1>
+        <table>
+            <tr>
+                <td><label for="name">Delivery Service Name:</label></td>
+                <td><input type="text" id="name"></td>
+            </tr>
+            <tr>
+                <td><label for="clientURL">Client URL:</label></td>
+                <td><input type="text" id="clientURL"></td>
+            </tr>
+            <tr>
+                <td><label for="originURL">Origin URL:</label></td>
+                <td><input type="text" id="originURL"></td>
+            </tr>
+            <tr>
+                <td align="center">
+                    <button onclick="window.history.back()">Back</button>
+                </td>
+                <td align="center">
+                    <button onclick="addDeliveryService()">Add</button>
+                </td>
+            </tr>
+        </table>
+    </div>
+ 
+    <script>
+const API_BASE_URL = ".."; // API base URL
+ 
+        function addDeliveryService() {
+            const name = document.getElementById("name").value.trim();
+            const clientURL = document.getElementById("clientURL").value.trim();
+            const originURL = document.getElementById("originURL").value.trim();
+ 
+            if (!name || !clientURL || !originURL) {
+                alert("Please fill in all fields.");
+                return;
+            }
+ 
+            const newService = {
+                name: name,
+                clientURL: clientURL,
+                originURL: originURL,
+            };
+ 
+            fetch(`${API_BASE_URL}/ds`, {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify(newService),
+            })
+                .then(response => response.text())
+                .then(data => {
+                    alert("Delivery Service Added: " + data);
+                    console.log("Successfully added delivery service:", newService);
+                    window.location.href = "index.html"; // Redirect to home page after success
+                })
+                .catch(error => {
+                    console.error("Error adding delivery service:", error);
+                    alert("Error adding delivery service.");
+                });
+        }
+    </script>
+</body>
+ 
+</html>

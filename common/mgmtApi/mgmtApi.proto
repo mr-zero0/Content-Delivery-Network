@@ -1,0 +1,100 @@
+syntax = "proto3";
+
+package mgmtApi;
+
+option go_package = "cdn/common/protobuf";
+
+// Service definition for the Management API
+service MgmtApi {
+    // Updates the list of delivery services
+    rpc UpdateDsList (UpdateDsListRequest) returns (UpdateDsListResponse);
+
+    // Updates the cache node configuration
+    rpc UpdateConfigNode (UpdateConfigNodeRequest) returns (UpdateConfigNodeResponse);
+
+    // Invalidates cache for a specific pattern
+    rpc InvalidateCache (InvalidateCacheRequest) returns (InvalidateCacheResponse);
+  
+    // Gets Invalidation status
+    rpc InvalidateCacheStatus (InvalidateCacheStatusRequest) returns (InvalidateCacheStatusResponse);
+
+    
+}
+
+// Request to update the list of delivery services
+message UpdateDsListRequest {
+    repeated DeliveryService serviceList = 1; // List of delivery services
+}
+
+// Response for updating the list of delivery services
+message UpdateDsListResponse {
+    bool success = 1;    // Indicates if the operation was successful
+    string message = 2;  // Additional message or error details
+}
+
+// Request to update the cache node configuration
+message UpdateConfigNodeRequest {
+    CacheNode node = 1; // Cache node details
+}
+
+// Response for updating the cache node configuration
+message UpdateConfigNodeResponse {
+    bool success = 1;    // Indicates if the operation was successful
+    string message = 2;  // Additional message or error details
+}
+
+// Request to invalidate cache
+message InvalidateCacheRequest {
+    string invalidationID = 1; // Unique ID for the invalidation request
+    string pattern = 2; // Key to invalidate in the cache
+}
+
+// Response for invalidating cache
+message InvalidateCacheResponse {
+    bool success = 1;    // Indicates if the operation was successful
+    string message = 2;  // Additional message or error details
+}
+
+// Request to get invalidation status
+message InvalidateCacheStatusRequest {
+    string invalidationID = 1; // Unique ID for the invalidation request
+}
+
+// Response for getting invalidation status
+message InvalidateCacheStatusResponse {
+    bool success = 1;    // Indicates if the operation was successful
+    string status = 2;   // Status of the invalidation request
+}
+
+
+// Config represents the configuration for the cache node
+message Config {
+  repeated DeliveryService service_list = 1; // List of delivery services
+  CacheNode node = 2;                        // Cache node details
+}
+
+// DeliveryService represents a single delivery service
+message DeliveryService {
+    string name = 1;         // Name of the delivery service
+    string clientURL = 2;    // URL from the client
+    string originURL = 3;    // URL to the origin
+    repeated RewriteRule rewriteRules = 4; // List of rewrite rules
+}
+
+// RewriteRule represents a rule for rewriting HTTP headers
+message RewriteRule {
+    string headerName = 1; // Name of the HTTP header
+    int32 operation = 2;   // Operation to perform (e.g., add, overwrite, delete)
+    string value = 3;      // Value for add/overwrite operations
+}
+
+// CacheNode represents a single cache node
+message CacheNode {
+    string name = 1;       // name of the cache node
+    string ip = 2;         // IP address of the cache node
+    int32 port = 3;        // Port for the cache node to listen
+    string type = 4;       // Type of the node (e.g., Mid, Edge)
+    string parentIP = 5;   // IP of the upstream cache (empty if no upstream)
+    int32 parentPort = 6;  // Port for the upstream cache
+    int32 promPort = 7;    // Port for the prometheus scrape point
+}

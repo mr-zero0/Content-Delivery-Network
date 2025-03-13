@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modify Config Node</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Modify Config Node</h1>
+        <table>
+            <tr>
+                <td><label for="ip">Cache Node Name:</label></td>
+                <td><input type="text" id="name"></td>
+            </tr>
+            <tr>
+                <td><label for="ip">Config Node IP (to modify):</label></td>
+                <td><input type="text" id="ip"></td>
+            </tr>
+            <tr>
+                <td><label for="port">New Port:</label></td>
+                <td><input type="number" id="port"></td>
+            </tr>
+            <tr>
+                <td><label for="type">New Type (Edge/Mid):</label></td>
+                <td><input type="text" id="type"></td>
+            </tr>
+            <tr>
+                <td><label for="parentIP">New Parent IP:</label></td>
+                <td><input type="text" id="parentIP"></td>
+            </tr>
+            <tr>
+                <td><label for="parentPort">New ParentPort:</label></td>
+                <td><input type="number" id="parentPort"></td>
+            </tr>
+            <tr>
+                <td><label for="mgmtPort">New MgmtPort:</label></td>
+                <td><input type="number" id="mgmtPort"></td>
+            </tr>
+            <tr>
+                <td><label for="promPort">New  PromPort:</label></td>
+                <td><input type="number" id="promPort"></td>
+            </tr>
+            <tr>
+                <td align="center">
+                    <button onclick="window.history.back()">Back</button>
+                </td>
+                <td align="center">
+                    <button onclick="modifyConfigNode()">Modify</button>
+                </td>
+            </tr>
+        </table>
+    </div>
+ 
+    <script>
+        function modifyConfigNode() {
+const API_BASE_URL = "..";
+            const name = document.getElementById("name").value.trim();
+            const ip = document.getElementById("ip").value.trim();
+            const port = document.getElementById("port").value.trim();
+            const type = document.getElementById("type").value.trim();
+            const parentIP = document.getElementById("parentIP").value.trim();
+            const parentPort = document.getElementById("parentPort").value.trim();
+            const mgmtPort = document.getElementById("mgmtPort").value.trim();
+            const promPort = document.getElementById("promPort").value.trim();
+ 
+ 
+            if (!ip) {
+                alert("Config Node IP is required!");
+                return;
+            }
+ 
+            const updatedNode = { name,ip, port, type, parentIP, parentPort, mgmtPort,promPort };
+ 
+            fetch(`${API_BASE_URL}/cn`, {
+                method: "PUT",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify(updatedNode),
+            })
+            .then(response => response.text())
+            .then(data => {
+                alert("Config Node Updated: " + data);
+                window.location.href = "index.html";
+            })
+            .catch(error => console.error("Error modifying config node:", error));
+        }
+    </script>
+</body>
+</html>

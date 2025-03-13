@@ -1,0 +1,1 @@
+..\..\cacheNode\cacheNode.exe -mgmtport 10002 -promPort 20002

@@ -1,0 +1,35 @@
+{
+  "version": 4,
+  "nodeList": [
+    {
+      "name": "Mid",
+      "ip": "127.0.0.1",
+      "port": 9000,
+      "type": "Mid",
+      "parentIP": "",
+      "parentPort": 0,
+      "mgmtPort": 10000,
+      "promPort": 20000
+    },
+    {
+      "name": "Edge1",
+      "ip": "127.0.0.1",
+      "port": 9001,
+      "type": "Edge",
+      "parentIP": "127.0.0.1",
+      "parentPort": 9000,
+      "mgmtPort": 10001,
+      "promPort": 20001
+    },
+    {
+      "name": "Edge2",
+      "ip": "127.0.0.1",
+      "port": 9002,
+      "type": "Edge",
+      "parentIP": "127.0.0.1",
+      "parentPort": 9000,
+      "mgmtPort": 10002,
+      "promPort": 20002
+    }
+  ]
+}

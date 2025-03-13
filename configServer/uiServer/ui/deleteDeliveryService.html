@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delete Delivery Service</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Delete Delivery Service</h1>
+        <label for="name">Enter Service Name to Delete:</label>
+        <input type="text" id="name">
+        <button onclick="deleteDeliveryService()">Delete</button>
+        <button onclick="window.history.back()">Back</button>
+    </div>
+ 
+    <script>
+        function deleteDeliveryService() {
+const API_BASE_URL = "http://localhost:8080";
+            const name = document.getElementById("name").value.trim();
+ 
+            if (!name) {
+                alert("Please enter a service name.");
+                return;
+            }
+ 
+            fetch(`${API_BASE_URL}/ds/${name}`, {
+                method: "DELETE"
+            })
+            .then(response => response.text())
+            .then(data => {
+                alert("Deleted DeliveryService: " + data);
+                window.location.href = "index.html";
+            })
+            .catch(error => console.error("Error deleting delivery service:", error));
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+
+CacheEvictor Map
+    [remainingCacheDuration1] = {[content11,maxAge,age,lastModified],[content12,maxAge,age,lastModified],...}
+    [remainingCacheDuration2] = {[content21,maxAge,age,lastModified],...}
+    [remainingCacheDuration3] = {[content31,maxAge,age,lastModified],[content32,maxAge,age,lastModified],...}
+
+cachedDuration         = Duration for which the content is present in CacheNode
+remainingCacheDuration = Remaining duration for content to become stale
+
+HTTP Request header fields used to calculate remainingCacheDuration
+    1. Max-age          ===> Mandatory field from Backend. Units in seconds
+                             If not present, then set Max-age as 0
+    2. Age              ===> Optional field from Backend. Units in seconds
+                             If Age is not present in request header, then set Age as 0.
+                             Update Age for each GET request from frontend (current time - last modified time)
+    3. Last-Modified    ===> Optional field from Backend. It will be in the string data format
+                              If Last-Modified is not present, then take current timestamp to calculate cachedDuration
+
+How to calculate cachedDuration, remainingCacheDuration?
+    cachedDuration          ===> Set cachedDuration as (current time - last modified time) which is content's Age in CacheNode.
+    remainingCacheDuration  ===> If cachedDuration > Max-age, then set it to 0 else set it as (Max-age - cachedDuration).
+Arrange in-memory map by storing content with less remainingCacheDuration at the top and content with more remainingCacheDuration at the bottom.
+
+Note:
+    Only CacheEvictor(running as a monitor service) will perform deletion on in-memory map & slice.
+    Writer module can perform only updation on the in-memory map & slice.
+
+/*
+ * StaleContentMap will be used to store each content's remaining cache duration as key and absolute path
+ * as value.
+ * RemainingCacheDuration will be used to store content's remaining cache duration in ascending order.
+ * Since Map is unordered, this slice will be used to prioritize contents with less remaining cache
+ * duration, placing them at the the top of the slice.
+ */
+

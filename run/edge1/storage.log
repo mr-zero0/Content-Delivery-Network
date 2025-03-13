@@ -1,0 +1,270 @@
+StorageEvent: 2025/02/04 16:26:28 Timestamp: 2025-02-04T16:26:28+05:30, DiskUsage: 67, TotalContents: 0
+StorageEvent: 2025/02/04 16:27:00 Timestamp: 2025-02-04T16:27:00+05:30, DiskUsage: 67, TotalContents: 0
+StorageEvent: 2025/02/04 16:27:32 Timestamp: 2025-02-04T16:27:32+05:30, DiskUsage: 67, TotalContents: 0
+StorageEvent: 2025/02/04 16:28:05 Timestamp: 2025-02-04T16:28:05+05:30, DiskUsage: 67, TotalContents: 0
+StorageEvent: 2025/02/04 16:28:37 Timestamp: 2025-02-04T16:28:37+05:30, DiskUsage: 67, TotalContents: 0
+StorageEvent: 2025/02/04 16:29:09 Timestamp: 2025-02-04T16:29:09+05:30, DiskUsage: 67, TotalContents: 0
+StorageEvent: 2025/02/04 16:29:40 Timestamp: 2025-02-04T16:29:40+05:30, DiskUsage: 67, TotalContents: 0
+StorageEvent: 2025/02/04 16:30:12 Timestamp: 2025-02-04T16:30:12+05:30, DiskUsage: 67, TotalContents: 0
+StorageEvent: 2025/02/04 16:30:45 Timestamp: 2025-02-04T16:30:45+05:30, DiskUsage: 67, TotalContents: 0
+StorageEvent: 2025/02/04 16:31:17 Timestamp: 2025-02-04T16:31:17+05:30, DiskUsage: 67, TotalContents: 0
+StorageEvent: 2025/02/04 16:31:49 Timestamp: 2025-02-04T16:31:49+05:30, DiskUsage: 67, TotalContents: 0
+StorageEvent: 2025/02/04 16:32:21 Timestamp: 2025-02-04T16:32:21+05:30, DiskUsage: 67, TotalContents: 0
+StorageEvent: 2025/02/04 16:32:53 Timestamp: 2025-02-04T16:32:53+05:30, DiskUsage: 67, TotalContents: 0
+StorageEvent: 2025/02/04 16:33:10 Timestamp: 2025-02-04T16:33:10+05:30, URL: http://google.com//static/a.html, Operation: read, ResponseTime: 3ms, Bytes: 0
+StorageEvent: 2025/02/04 16:33:11 Timestamp: 2025-02-04T16:33:11+05:30, URL: http://google.com//static/a.html, Operation: write, ResponseTime: 19ms, Bytes: 113
+StorageEvent: 2025/02/04 16:33:25 Timestamp: 2025-02-04T16:33:25+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 16:33:57 Timestamp: 2025-02-04T16:33:57+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 16:34:30 Timestamp: 2025-02-04T16:34:30+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 16:35:02 Timestamp: 2025-02-04T16:35:02+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 16:35:34 Timestamp: 2025-02-04T16:35:34+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 16:36:06 Timestamp: 2025-02-04T16:36:06+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 16:36:38 Timestamp: 2025-02-04T16:36:38+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 16:37:10 Timestamp: 2025-02-04T16:37:10+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 16:37:42 Timestamp: 2025-02-04T16:37:42+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 16:38:14 Timestamp: 2025-02-04T16:38:14+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 16:38:46 Timestamp: 2025-02-04T16:38:46+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 16:39:18 Timestamp: 2025-02-04T16:39:18+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 16:39:50 Timestamp: 2025-02-04T16:39:50+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 16:40:22 Timestamp: 2025-02-04T16:40:22+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 16:40:54 Timestamp: 2025-02-04T16:40:54+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 16:41:26 Timestamp: 2025-02-04T16:41:26+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 16:41:58 Timestamp: 2025-02-04T16:41:58+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 16:42:30 Timestamp: 2025-02-04T16:42:30+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 16:43:02 Timestamp: 2025-02-04T16:43:02+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 16:43:34 Timestamp: 2025-02-04T16:43:34+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 16:44:06 Timestamp: 2025-02-04T16:44:06+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 16:44:37 Timestamp: 2025-02-04T16:44:37+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 16:45:09 Timestamp: 2025-02-04T16:45:09+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 16:45:41 Timestamp: 2025-02-04T16:45:41+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 16:46:13 Timestamp: 2025-02-04T16:46:13+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 16:46:15 Timestamp: 2025-02-04T16:46:15+05:30, URL: http://msn.com/, Operation: write, ResponseTime: 0ms, Bytes: 0
+StorageEvent: 2025/02/04 16:46:45 Timestamp: 2025-02-04T16:46:45+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 16:47:17 Timestamp: 2025-02-04T16:47:17+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 16:47:49 Timestamp: 2025-02-04T16:47:49+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 16:48:21 Timestamp: 2025-02-04T16:48:21+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 16:48:53 Timestamp: 2025-02-04T16:48:53+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 16:49:25 Timestamp: 2025-02-04T16:49:25+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 16:49:57 Timestamp: 2025-02-04T16:49:57+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 16:50:29 Timestamp: 2025-02-04T16:50:29+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 16:51:00 Timestamp: 2025-02-04T16:51:00+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 16:51:33 Timestamp: 2025-02-04T16:51:33+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 16:52:05 Timestamp: 2025-02-04T16:52:05+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 16:52:37 Timestamp: 2025-02-04T16:52:37+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 16:53:09 Timestamp: 2025-02-04T16:53:08+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 16:53:31 Timestamp: 2025-02-04T16:53:31+05:30, URL: http://msn.com//dyna/200/256/120/0/Europe, Operation: read, ResponseTime: 5ms, Bytes: 0
+StorageEvent: 2025/02/04 16:53:31 Timestamp: 2025-02-04T16:53:31+05:30, URL: http://msn.com//dyna/200/256/120/0/Europe, Operation: write, ResponseTime: 42ms, Bytes: 256
+StorageEvent: 2025/02/04 16:53:40 Timestamp: 2025-02-04T16:53:40+05:30, DiskUsage: 67, TotalContents: 2
+StorageEvent: 2025/02/04 16:54:12 Timestamp: 2025-02-04T16:54:12+05:30, DiskUsage: 67, TotalContents: 2
+StorageEvent: 2025/02/04 16:54:44 Timestamp: 2025-02-04T16:54:44+05:30, DiskUsage: 67, TotalContents: 2
+StorageEvent: 2025/02/04 16:55:16 Timestamp: 2025-02-04T16:55:16+05:30, DiskUsage: 67, TotalContents: 2
+StorageEvent: 2025/02/04 16:55:48 Timestamp: 2025-02-04T16:55:48+05:30, DiskUsage: 67, TotalContents: 2
+StorageEvent: 2025/02/04 16:56:20 Timestamp: 2025-02-04T16:56:20+05:30, DiskUsage: 67, TotalContents: 2
+StorageEvent: 2025/02/04 16:56:52 Timestamp: 2025-02-04T16:56:52+05:30, DiskUsage: 67, TotalContents: 2
+StorageEvent: 2025/02/04 16:57:24 Timestamp: 2025-02-04T16:57:24+05:30, DiskUsage: 67, TotalContents: 2
+StorageEvent: 2025/02/04 16:57:55 Timestamp: 2025-02-04T16:57:55+05:30, DiskUsage: 67, TotalContents: 2
+StorageEvent: 2025/02/04 16:58:27 Timestamp: 2025-02-04T16:58:27+05:30, DiskUsage: 67, TotalContents: 2
+StorageEvent: 2025/02/04 16:58:59 Timestamp: 2025-02-04T16:58:59+05:30, DiskUsage: 67, TotalContents: 2
+StorageEvent: 2025/02/04 16:59:31 Timestamp: 2025-02-04T16:59:31+05:30, DiskUsage: 67, TotalContents: 2
+StorageEvent: 2025/02/04 17:00:04 Timestamp: 2025-02-04T17:00:04+05:30, DiskUsage: 67, TotalContents: 2
+StorageEvent: 2025/02/04 17:00:34 Timestamp: 2025-02-04T17:00:34+05:30, URL: CacheEvictor, Operation: delete, ResponseTime: 69ms, Bytes: 369
+StorageEvent: 2025/02/04 17:00:34 Timestamp: 2025-02-04T17:00:34+05:30, DiskUsage: 85, TotalContents: 0
+StorageEvent: 2025/02/04 17:01:04 Timestamp: 2025-02-04T17:01:04+05:30, DiskUsage: 80, TotalContents: 0
+StorageEvent: 2025/02/04 17:01:35 Timestamp: 2025-02-04T17:01:35+05:30, DiskUsage: 67, TotalContents: 0
+StorageEvent: 2025/02/04 17:02:07 Timestamp: 2025-02-04T17:02:07+05:30, DiskUsage: 67, TotalContents: 0
+StorageEvent: 2025/02/04 17:02:38 Timestamp: 2025-02-04T17:02:38+05:30, DiskUsage: 67, TotalContents: 0
+StorageEvent: 2025/02/04 17:03:09 Timestamp: 2025-02-04T17:03:09+05:30, URL: http://msn.com//dyna/200/256/1200/0/Europe, Operation: read, ResponseTime: 6ms, Bytes: 0
+StorageEvent: 2025/02/04 17:03:09 Timestamp: 2025-02-04T17:03:09+05:30, URL: http://msn.com//dyna/200/256/1200/0/Europe, Operation: write, ResponseTime: 40ms, Bytes: 256
+StorageEvent: 2025/02/04 17:03:10 Timestamp: 2025-02-04T17:03:10+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 17:03:42 Timestamp: 2025-02-04T17:03:42+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 17:04:13 Timestamp: 2025-02-04T17:04:13+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 17:04:45 Timestamp: 2025-02-04T17:04:45+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 17:05:16 Timestamp: 2025-02-04T17:05:16+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 17:05:48 Timestamp: 2025-02-04T17:05:48+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 17:06:19 Timestamp: 2025-02-04T17:06:19+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 17:06:51 Timestamp: 2025-02-04T17:06:51+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 17:07:23 Timestamp: 2025-02-04T17:07:23+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 17:07:54 Timestamp: 2025-02-04T17:07:54+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 17:08:26 Timestamp: 2025-02-04T17:08:26+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 17:08:58 Timestamp: 2025-02-04T17:08:58+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 17:09:30 Timestamp: 2025-02-04T17:09:30+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 17:10:02 Timestamp: 2025-02-04T17:10:02+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 17:10:34 Timestamp: 2025-02-04T17:10:34+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 17:11:06 Timestamp: 2025-02-04T17:11:06+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 17:11:38 Timestamp: 2025-02-04T17:11:38+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 17:12:09 Timestamp: 2025-02-04T17:12:09+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 17:12:41 Timestamp: 2025-02-04T17:12:41+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 17:13:13 Timestamp: 2025-02-04T17:13:13+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 17:13:44 Timestamp: 2025-02-04T17:13:44+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 17:14:16 Timestamp: 2025-02-04T17:14:16+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 17:14:48 Timestamp: 2025-02-04T17:14:48+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 17:15:20 Timestamp: 2025-02-04T17:15:20+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 17:15:52 Timestamp: 2025-02-04T17:15:52+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 17:16:23 Timestamp: 2025-02-04T17:16:23+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 17:16:55 Timestamp: 2025-02-04T17:16:55+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 17:17:27 Timestamp: 2025-02-04T17:17:27+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 17:17:59 Timestamp: 2025-02-04T17:17:59+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 17:18:30 Timestamp: 2025-02-04T17:18:30+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 17:19:02 Timestamp: 2025-02-04T17:19:02+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 17:19:34 Timestamp: 2025-02-04T17:19:34+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 17:20:05 Timestamp: 2025-02-04T17:20:05+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 17:20:37 Timestamp: 2025-02-04T17:20:37+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 17:21:08 Timestamp: 2025-02-04T17:21:08+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 17:21:40 Timestamp: 2025-02-04T17:21:40+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 17:22:11 Timestamp: 2025-02-04T17:22:11+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 17:22:43 Timestamp: 2025-02-04T17:22:43+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 17:23:15 Timestamp: 2025-02-04T17:23:15+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 17:23:46 Timestamp: 2025-02-04T17:23:46+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 17:24:18 Timestamp: 2025-02-04T17:24:18+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 17:24:49 Timestamp: 2025-02-04T17:24:49+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 17:25:22 Timestamp: 2025-02-04T17:25:22+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 17:25:54 Timestamp: 2025-02-04T17:25:54+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 17:26:25 Timestamp: 2025-02-04T17:26:25+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 17:26:57 Timestamp: 2025-02-04T17:26:57+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 17:27:29 Timestamp: 2025-02-04T17:27:29+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 17:28:01 Timestamp: 2025-02-04T17:28:01+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 17:28:32 Timestamp: 2025-02-04T17:28:32+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 17:29:04 Timestamp: 2025-02-04T17:29:04+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 17:29:36 Timestamp: 2025-02-04T17:29:36+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 17:30:08 Timestamp: 2025-02-04T17:30:08+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 17:30:40 Timestamp: 2025-02-04T17:30:40+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 17:31:11 Timestamp: 2025-02-04T17:31:11+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 17:31:43 Timestamp: 2025-02-04T17:31:43+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 17:32:14 Timestamp: 2025-02-04T17:32:14+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 17:32:46 Timestamp: 2025-02-04T17:32:46+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 17:33:18 Timestamp: 2025-02-04T17:33:18+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 17:33:49 Timestamp: 2025-02-04T17:33:49+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 17:34:21 Timestamp: 2025-02-04T17:34:21+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 17:34:52 Timestamp: 2025-02-04T17:34:52+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 17:35:24 Timestamp: 2025-02-04T17:35:24+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 17:35:55 Timestamp: 2025-02-04T17:35:55+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 17:36:27 Timestamp: 2025-02-04T17:36:27+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 17:36:59 Timestamp: 2025-02-04T17:36:59+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 17:37:30 Timestamp: 2025-02-04T17:37:30+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 17:38:02 Timestamp: 2025-02-04T17:38:02+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 17:38:33 Timestamp: 2025-02-04T17:38:33+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 17:39:05 Timestamp: 2025-02-04T17:39:05+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 17:39:36 Timestamp: 2025-02-04T17:39:36+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 17:40:08 Timestamp: 2025-02-04T17:40:08+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 17:40:40 Timestamp: 2025-02-04T17:40:40+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 17:41:12 Timestamp: 2025-02-04T17:41:12+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 17:41:43 Timestamp: 2025-02-04T17:41:43+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 17:42:15 Timestamp: 2025-02-04T17:42:15+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 17:42:46 Timestamp: 2025-02-04T17:42:46+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 17:43:18 Timestamp: 2025-02-04T17:43:18+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 17:43:50 Timestamp: 2025-02-04T17:43:50+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 17:44:21 Timestamp: 2025-02-04T17:44:21+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 17:44:53 Timestamp: 2025-02-04T17:44:53+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 17:45:25 Timestamp: 2025-02-04T17:45:25+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 17:45:56 Timestamp: 2025-02-04T17:45:56+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 17:46:28 Timestamp: 2025-02-04T17:46:28+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 17:47:00 Timestamp: 2025-02-04T17:47:00+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 17:47:32 Timestamp: 2025-02-04T17:47:32+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 17:48:03 Timestamp: 2025-02-04T17:48:03+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 17:48:35 Timestamp: 2025-02-04T17:48:35+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 17:49:06 Timestamp: 2025-02-04T17:49:06+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 17:49:38 Timestamp: 2025-02-04T17:49:38+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 17:50:10 Timestamp: 2025-02-04T17:50:10+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 17:50:41 Timestamp: 2025-02-04T17:50:41+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 17:51:13 Timestamp: 2025-02-04T17:51:13+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 17:51:45 Timestamp: 2025-02-04T17:51:45+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 17:52:16 Timestamp: 2025-02-04T17:52:16+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 17:52:48 Timestamp: 2025-02-04T17:52:48+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 17:53:20 Timestamp: 2025-02-04T17:53:20+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 17:53:53 Timestamp: 2025-02-04T17:53:53+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 17:54:25 Timestamp: 2025-02-04T17:54:25+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 17:54:56 Timestamp: 2025-02-04T17:54:56+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 17:55:29 Timestamp: 2025-02-04T17:55:29+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 17:56:00 Timestamp: 2025-02-04T17:56:00+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 17:56:32 Timestamp: 2025-02-04T17:56:32+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 17:57:04 Timestamp: 2025-02-04T17:57:04+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 17:57:35 Timestamp: 2025-02-04T17:57:35+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 17:58:07 Timestamp: 2025-02-04T17:58:07+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 17:58:39 Timestamp: 2025-02-04T17:58:39+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 17:59:10 Timestamp: 2025-02-04T17:59:10+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 17:59:42 Timestamp: 2025-02-04T17:59:42+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 18:00:14 Timestamp: 2025-02-04T18:00:14+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 18:00:45 Timestamp: 2025-02-04T18:00:45+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 18:01:17 Timestamp: 2025-02-04T18:01:17+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 18:01:49 Timestamp: 2025-02-04T18:01:49+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 18:02:21 Timestamp: 2025-02-04T18:02:21+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/04 18:02:53 Timestamp: 2025-02-04T18:02:53+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/05 10:34:59 Timestamp: 2025-02-05T10:34:59+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/05 10:35:18 Timestamp: 2025-02-05T10:35:18+05:30, URL: http://google.com/, Operation: delete, ResponseTime: 41ms, Bytes: 0
+StorageEvent: 2025/02/05 10:35:18 Timestamp: 2025-02-05T10:35:18+05:30, URL: http://msn.com/, Operation: delete, ResponseTime: 73ms, Bytes: 448
+StorageEvent: 2025/02/05 10:35:26 Timestamp: 2025-02-05T10:35:26+05:30, URL: http://msn.com/, Operation: write, ResponseTime: 0ms, Bytes: 0
+StorageEvent: 2025/02/05 10:35:30 Timestamp: 2025-02-05T10:35:30+05:30, DiskUsage: 67, TotalContents: 0
+StorageEvent: 2025/02/05 10:36:02 Timestamp: 2025-02-05T10:36:02+05:30, DiskUsage: 67, TotalContents: 0
+StorageEvent: 2025/02/05 10:36:33 Timestamp: 2025-02-05T10:36:33+05:30, DiskUsage: 67, TotalContents: 0
+StorageEvent: 2025/02/05 10:37:05 Timestamp: 2025-02-05T10:37:05+05:30, DiskUsage: 67, TotalContents: 0
+StorageEvent: 2025/02/05 10:37:37 Timestamp: 2025-02-05T10:37:37+05:30, DiskUsage: 67, TotalContents: 0
+StorageEvent: 2025/02/05 10:38:08 Timestamp: 2025-02-05T10:38:08+05:30, DiskUsage: 67, TotalContents: 0
+StorageEvent: 2025/02/05 10:38:40 Timestamp: 2025-02-05T10:38:40+05:30, DiskUsage: 67, TotalContents: 0
+StorageEvent: 2025/02/05 10:39:11 Timestamp: 2025-02-05T10:39:11+05:30, DiskUsage: 67, TotalContents: 0
+StorageEvent: 2025/02/05 10:39:38 Timestamp: 2025-02-05T10:39:38+05:30, URL: http://google.com//static/a.html, Operation: read, ResponseTime: 3ms, Bytes: 0
+StorageEvent: 2025/02/05 10:39:38 Timestamp: 2025-02-05T10:39:38+05:30, URL: http://google.com//static/a.html, Operation: write, ResponseTime: 18ms, Bytes: 113
+StorageEvent: 2025/02/05 10:39:43 Timestamp: 2025-02-05T10:39:43+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/05 10:40:16 Timestamp: 2025-02-05T10:40:16+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/05 10:40:48 Timestamp: 2025-02-05T10:40:48+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/05 10:41:19 Timestamp: 2025-02-05T10:41:19+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/05 10:41:51 Timestamp: 2025-02-05T10:41:51+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/05 10:42:22 Timestamp: 2025-02-05T10:42:22+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/05 10:42:54 Timestamp: 2025-02-05T10:42:54+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/05 10:43:26 Timestamp: 2025-02-05T10:43:26+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/05 10:43:58 Timestamp: 2025-02-05T10:43:58+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/05 10:44:29 Timestamp: 2025-02-05T10:44:29+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/05 10:45:01 Timestamp: 2025-02-05T10:45:01+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/05 10:45:33 Timestamp: 2025-02-05T10:45:33+05:30, DiskUsage: 67, TotalContents: 1
+StorageEvent: 2025/02/05 13:00:19 Timestamp: 2025-02-05T13:00:19+05:30, URL: http:///google.com, ResponseTime: 29ms, Bytes: 342, Operation: delete
+StorageEvent: 2025/02/05 13:00:36 Timestamp: 2025-02-05T13:00:36+05:30, URL: http:///msn.com, ResponseTime: 2ms, Bytes: 0, Operation: delete
+StorageEvent: 2025/02/05 13:10:54 Timestamp: 2025-02-05T13:10:54+05:30, URL: http://google.com//static/a.html, ResponseTime: 3ms, Bytes: 0, Operation: read
+StorageEvent: 2025/02/05 13:10:55 Timestamp: 2025-02-05T13:10:55+05:30, URL: http://google.com//static/a.html, ResponseTime: 19ms, Bytes: 113, Operation: write
+StorageEvent: 2025/02/05 13:17:29 Timestamp: 2025-02-05T13:17:29+05:30, URL: http://msn.com//dyna/200/256/300/0/Europe, ResponseTime: 3ms, Bytes: 0, Operation: read
+StorageEvent: 2025/02/05 13:17:29 Timestamp: 2025-02-05T13:17:29+05:30, URL: http://msn.com//dyna/200/256/300/0/Europe, ResponseTime: 40ms, Bytes: 256, Operation: write
+StorageEvent: 2025/02/05 13:19:59 Timestamp: 2025-02-05T13:19:59+05:30, URL: http://google.com//static/a.html, ResponseTime: 5ms, Bytes: 113, Operation: read
+StorageEvent: 2025/02/05 13:19:59 Timestamp: 2025-02-05T13:19:59+05:30, URL: http://google.com//static/a.html, ResponseTime: 17ms, Bytes: 113, Operation: write
+StorageEvent: 2025/02/05 13:23:31 Timestamp: 2025-02-05T13:23:31+05:30, URL: http:///google.com, ResponseTime: 26ms, Bytes: 342, Operation: delete
+StorageEvent: 2025/02/05 13:23:46 Timestamp: 2025-02-05T13:23:46+05:30, URL: http:///msn.com, ResponseTime: 55ms, Bytes: 469, Operation: delete
+StorageEvent: 2025/02/05 13:24:19 Timestamp: 2025-02-05T13:24:19+05:30, URL: http://msn.com//dyna/200/256/300/0/Europe, ResponseTime: 5ms, Bytes: 0, Operation: read
+StorageEvent: 2025/02/05 13:24:19 Timestamp: 2025-02-05T13:24:19+05:30, URL: http://msn.com//dyna/200/256/300/0/Europe, ResponseTime: 37ms, Bytes: 256, Operation: write
+StorageEvent: 2025/02/05 13:24:30 Timestamp: 2025-02-05T13:24:30+05:30, URL: http://msn.com//dyna/200/256/600/0/Asia, ResponseTime: 4ms, Bytes: 0, Operation: read
+StorageEvent: 2025/02/05 13:24:30 Timestamp: 2025-02-05T13:24:30+05:30, URL: http://msn.com//dyna/200/256/600/0/Asia, ResponseTime: 21ms, Bytes: 256, Operation: write
+StorageEvent: 2025/02/05 13:26:47 Timestamp: 2025-02-05T13:26:47+05:30, URL: CacheEvictor, ResponseTime: 69ms, Bytes: 512, Operation: delete
+StorageEvent: 2025/02/05 13:40:51 Timestamp: 2025-02-05T13:40:51+05:30, URL: http://google.com//static/a.html, ResponseTime: 3ms, Bytes: 0, Operation: read
+StorageEvent: 2025/02/05 13:40:51 Timestamp: 2025-02-05T13:40:51+05:30, URL: http://google.com//static/a.html, ResponseTime: 17ms, Bytes: 113, Operation: write
+StorageEvent: 2025/02/05 13:41:25 Timestamp: 2025-02-05T13:41:25+05:30, URL: http:///google.com, ResponseTime: 26ms, Bytes: 342, Operation: delete
+StorageEvent: 2025/02/05 13:42:42 Timestamp: 2025-02-05T13:42:42+05:30, URL: http:///google.com, ResponseTime: 2ms, Bytes: 0, Operation: delete
+StorageEvent: 2025/02/05 13:45:06 Timestamp: 2025-02-05T13:45:06+05:30, URL: http://google.com//static/a.html, ResponseTime: 3ms, Bytes: 0, Operation: read
+StorageEvent: 2025/02/05 13:45:06 Timestamp: 2025-02-05T13:45:06+05:30, URL: http://google.com//static/a.html, ResponseTime: 16ms, Bytes: 113, Operation: write
+StorageEvent: 2025/02/05 13:45:55 Timestamp: 2025-02-05T13:45:55+05:30, URL: http://google.com//static/a.html, ResponseTime: 4ms, Bytes: 113, Operation: read
+StorageEvent: 2025/02/05 13:45:55 Timestamp: 2025-02-05T13:45:55+05:30, URL: http://google.com//static/a.html, ResponseTime: 17ms, Bytes: 113, Operation: write
+StorageEvent: 2025/02/05 13:46:53 Timestamp: 2025-02-05T13:46:53+05:30, URL: http:///google.com, ResponseTime: 26ms, Bytes: 342, Operation: delete
+StorageEvent: 2025/02/05 13:46:54 Timestamp: 2025-02-05T13:46:54+05:30, URL: http:///google.com, ResponseTime: 14ms, Bytes: 113, Operation: delete
+StorageEvent: 2025/02/05 13:47:21 Timestamp: 2025-02-05T13:47:21+05:30, URL: http:///google.com, ResponseTime: 11ms, Bytes: 113, Operation: delete
+StorageEvent: 2025/02/05 13:48:34 Timestamp: 2025-02-05T13:48:34+05:30, URL: http:///google.com, ResponseTime: 22ms, Bytes: 113, Operation: delete
+StorageEvent: 2025/02/05 13:48:58 Timestamp: 2025-02-05T13:48:58+05:30, URL: http://google.com//static/a.html, ResponseTime: 1ms, Bytes: 0, Operation: read
+StorageEvent: 2025/02/05 13:48:58 Timestamp: 2025-02-05T13:48:58+05:30, URL: http://google.com//static/a.html, ResponseTime: 21ms, Bytes: 113, Operation: write
+StorageEvent: 2025/02/05 13:51:26 Timestamp: 2025-02-05T13:51:26+05:30, URL: http://gmail.com/, ResponseTime: 19ms, Bytes: 0, Operation: delete
+StorageEvent: 2025/02/05 13:53:31 Timestamp: 2025-02-05T13:53:31+05:30, URL: http:///google.com, ResponseTime: 25ms, Bytes: 342, Operation: delete
+StorageEvent: 2025/02/05 13:53:43 Timestamp: 2025-02-05T13:53:43+05:30, URL: http://google.com//static/a.html, ResponseTime: 1ms, Bytes: 0, Operation: read
+StorageEvent: 2025/02/05 13:53:43 Timestamp: 2025-02-05T13:53:43+05:30, URL: http://google.com//static/a.html, ResponseTime: 15ms, Bytes: 113, Operation: write
+StorageEvent: 2025/02/05 14:00:28 Timestamp: 2025-02-05T14:00:28+05:30, URL: http://google.com//static/a.html, ResponseTime: 5ms, Bytes: 113, Operation: read
+StorageEvent: 2025/02/05 14:00:28 Timestamp: 2025-02-05T14:00:28+05:30, URL: http://google.com//static/a.html, ResponseTime: 15ms, Bytes: 113, Operation: write
+StorageEvent: 2025/02/05 14:01:29 Timestamp: 2025-02-05T14:01:29+05:30, URL: http:///google.com, ResponseTime: 44ms, Bytes: 364, Operation: delete
+StorageEvent: 2025/02/05 14:01:36 Timestamp: 2025-02-05T14:01:36+05:30, URL: http:///msn.com, ResponseTime: 3ms, Bytes: 0, Operation: delete
+StorageEvent: 2025/02/05 14:02:21 Timestamp: 2025-02-05T14:02:21+05:30, URL: http:///google.com, ResponseTime: 22ms, Bytes: 113, Operation: delete
+StorageEvent: 2025/02/05 14:02:40 Timestamp: 2025-02-05T14:02:40+05:30, URL: http:///google.com, ResponseTime: 1ms, Bytes: 0, Operation: delete
+StorageEvent: 2025/02/05 15:40:44 Timestamp: 2025-02-05T15:40:44+05:30, URL: http://gmail.com/, ResponseTime: 2ms, Bytes: 0, Operation: delete
+StorageEvent: 2025/02/05 15:40:44 Timestamp: 2025-02-05T15:40:44+05:30, URL: http://msn.com/, ResponseTime: 2ms, Bytes: 0, Operation: delete
+StorageEvent: 2025/02/05 15:47:07 Timestamp: 2025-02-05T15:47:07+05:30, URL: http://google.com//static/a.html, ResponseTime: 4ms, Bytes: 0, Operation: read
+StorageEvent: 2025/02/05 15:47:08 Timestamp: 2025-02-05T15:47:08+05:30, URL: http://google.com//static/a.html, ResponseTime: 25ms, Bytes: 113, Operation: write
+StorageEvent: 2025/02/05 15:56:51 Timestamp: 2025-02-05T15:56:51+05:30, URL: http://msn.com//dyna/200/256/300/0/Europe, ResponseTime: 5ms, Bytes: 0, Operation: read
+StorageEvent: 2025/02/05 15:56:51 Timestamp: 2025-02-05T15:56:51+05:30, URL: http://msn.com//dyna/200/256/300/0/Europe, ResponseTime: 43ms, Bytes: 256, Operation: write
+StorageEvent: 2025/02/05 15:58:14 Timestamp: 2025-02-05T15:58:14+05:30, URL: http://google.com//static/a.html, ResponseTime: 5ms, Bytes: 113, Operation: read
+StorageEvent: 2025/02/05 15:58:14 Timestamp: 2025-02-05T15:58:14+05:30, URL: http://google.com//static/a.html, ResponseTime: 19ms, Bytes: 113, Operation: write
+StorageEvent: 2025/02/05 16:03:56 Timestamp: 2025-02-05T16:03:56+05:30, URL: http:///google.com, ResponseTime: 46ms, Bytes: 364, Operation: delete
+StorageEvent: 2025/02/05 16:09:02 Timestamp: 2025-02-05T16:09:02+05:30, URL: CacheEvictor, ResponseTime: 56ms, Bytes: 256, Operation: delete
+StorageEvent: 2025/02/17 11:30:32 Timestamp: 2025-02-17T11:30:32+05:30, URL: http://google.com//static/a.html, ResponseTime: 3ms, Bytes: 0, Operation: read
+StorageEvent: 2025/02/17 11:30:32 Timestamp: 2025-02-17T11:30:32+05:30, URL: http://google.com//static/a.html, ResponseTime: 17ms, Bytes: 113, Operation: write
+StorageEvent: 2025/02/17 11:32:14 Timestamp: 2025-02-17T11:32:14+05:30, URL: http://google.com//static/a.html, ResponseTime: 5ms, Bytes: 113, Operation: read
+StorageEvent: 2025/02/17 11:32:14 Timestamp: 2025-02-17T11:32:14+05:30, URL: http://google.com//static/a.html, ResponseTime: 15ms, Bytes: 113, Operation: write

@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "serviceList": [
+    {
+      "name": "ds1",
+      "clientURL": "http://google.com",
+      "originURL": "http://localhost:32001",
+      "rewriteRules": [
+        {
+          "headerName": "TestHeader",
+          "operation": 0,
+          "value": "ABCD"
+        }
+      ]
+    },
+    {
+      "name": "ds2",
+      "clientURL": "http://msn.com",
+      "originURL": "http://localhost:32002",
+      "rewriteRules": null
+    }
+  ]
+}

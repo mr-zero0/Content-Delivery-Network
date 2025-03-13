@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Config Node</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Add Cache Node</h1>
+        <table>
+            <tr>
+                <td><label>Node Name:</label></td>
+                <td><input type="text" id="name"></td>
+            </tr>
+            <tr>
+                <td><label>Node IP:</label></td>
+                <td><input type="text" id="ip"></td>
+            </tr>
+            <tr>
+                <td><label>Node Port:</label></td>
+                <td><input type="number" id="port"></td>
+            </tr>
+            <tr>
+                <td><label>Node Type (Edge/Mid):</label></td>
+                <td><input type="text" id="type"></td>
+            </tr>
+            <tr>
+                <td><label>Parent IP:</label></td>
+                <td><input type="text" id="parentIP"></td>
+            </tr>
+            <tr>
+                <td><label>Parent Port:</label></td>
+                <td><input type="number" id="parentPort"></td>
+            </tr>
+            <tr>
+                <td><label>Management Port:</label></td>
+                <td><input type="number" id="mgmtPort"></td>
+            </tr>
+            <tr>
+                <td><label>PromPort:</label></td>
+                <td><input type="number" id="promPort"></td>
+            </tr>
+            <tr>
+                <td align="center">
+                    <button onclick="window.history.back()">Back</button>
+                </td>
+                <td align="center">
+                    <button onclick="addConfigNode()">Add</button>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <script>
+        const API_BASE_URL = "http://localhost:8080"; // Set the base URL to localhost:8080
+        function addConfigNode() {
+            const port = parseInt(document.getElementById("port").value, 10);
+            const parentPort = parseInt(document.getElementById("parentPort").value, 10);
+            const mgmtPort = parseInt(document.getElementById("mgmtPort").value, 10);
+            const promPort = parseInt(document.getElementById("promPort").value, 10);
+            const newNode = {
+                name: document.getElementById("name").value,
+                ip: document.getElementById("ip").value,
+                type: document.getElementById("type").value,
+                port: port,
+                parentIP: document.getElementById("parentIP").value,
+                parentPort: parentPort,
+                mgmtPort: mgmtPort,
+                promPort: promPort,
+            };
+            fetch(API_BASE_URL + "/cn", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify(newNode)
+            })
+                .then(response => response.text())
+                .then(data => {
+                    alert("Config node added: " + data);
+                    console.log("Successfully added config node:", newNode);
+                    window.location.href = "index.html";
+                })
+                .catch(error => console.error("Error adding config node:", error));
+        }
+    </script>
+</body>
+</html>

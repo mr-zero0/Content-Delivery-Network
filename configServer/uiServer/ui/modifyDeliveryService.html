@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modify Delivery Service</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="loadData()">
+    <div class="container">
+        <h1>Modify Delivery Service</h1>
+        <table>
+            <tr>
+                <td><label for="name">Service Name (to modify):</label></td>
+                <td><input type="text" id="name"></td>
+            </tr>
+            <tr>
+                <td><label for="clientURL">New Client URL:</label></td>
+                <td><input type="text" id="clientURL"></td>
+            </tr>
+            <tr>
+                <td><label for="originURL">New Origin URL:</label></td>
+                <td><input type="text" id="originURL"></td>
+            </tr>
+            <tr>
+                <td align="center">
+                    <button onclick="window.history.back()">Back</button>
+                </td>
+                <td align="center">
+                    <button onclick="modifyDeliveryService()">Modify</button>
+                </td>
+            </tr>
+        </table>
+    </div>
+ 
+    <script>
+        const API_BASE_URL = "..";
+        function loadData() {
+            let ds =  window.location.search.substring(1)
+            console.log(ds)
+            fetch(`${API_BASE_URL}/ds/${ds}`, {
+                method: "GET",
+                headers: { "Content-Type": "application/json" },
+            })
+            .then(response => {
+                let respJson = response.json()
+                console.log(respJson)
+                return respJson
+            })
+            .then(data => {
+                document.getElementById("name").value = data.name;
+                document.getElementById("clientURL").value = data.clientURL;
+                document.getElementById("originURL").value = data.originURL;
+            })
+            .catch(error => {
+                console.error("Error fetching Delivery service:", error)
+                alert("Error fetching Delivery service: " +  error)
+            });
+
+        }
+        function modifyDeliveryService() {
+            const name = document.getElementById("name").value.trim();
+            const clientURL = document.getElementById("clientURL").value.trim();
+            const originURL = document.getElementById("originURL").value.trim();
+ 
+            if (!name) {
+                alert("Service Name is required!");
+                return;
+            }
+ 
+            const updatedService = { name, clientURL, originURL };
+ 
+            fetch(`${API_BASE_URL}/ds/${name}`, {
+                method: "PUT",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify(updatedService),
+            })
+            .then(response => response.text())
+            .then(data => {
+                alert("Delivery Service Updated: " + data);
+                window.location.href = "index.html";
+            })
+            .catch(error => console.error("Error modifying delivery service:", error));
+        }
+    </script>
+</body>
+</html>
